@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #A89723;
+    --secondary-color: #FFEB69;
+    --light-color: #F5DF4D;
+    --text-color: #939597;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color); /* This color is more appropriate for a dark background but I've kept the original for flexibility */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+}
+.text-primary-color {
+    color: var(--primary-color) !important;
+}
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
+}
+.btn-primary-color {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.btn-primary-color:hover {
+    background-color: #7a6e1a;
+    border-color: #7a6e1a;
+}
+.secondary-hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1710732652617-264d6f860546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1lbnV8ZW58MHx8MHx8fDA%3D') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-card {
+    background-color: var(--text-color);
+    padding: 4rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+.menu-title-separator {
+    width: 80px;
+    height: 3px;
+    background-color: var(--light-color);
+    margin: 1.5rem auto 2.5rem;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.menu-item-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+}
+.menu-item-description {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    flex-basis: 100%;
+}
+.menu-item-price {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--light-color);
+}
+.menu-divider {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://plus.unsplash.com/premium_photo-1674106347728-6bf78c338115?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.testimonial-carousel .carousel-control-prev,
+.testimonial-carousel .carousel-control-next {
+    width: 5%;
+}
+.testimonial-carousel .carousel-control-prev-icon,
+.testimonial-carousel .carousel-control-next-icon {
+    filter: invert(1);
+}
+.container-full-bg {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.text-white-on-dark {
+    color: white !important;
+}
+.bg-light-yellow {
+    background-color: var(--light-color)!important;
+}
+.bg-dark-gray {
+    background-color: var(--text-color);
+}
+.bg-white-section {
+    background-color: #ffffff;
+}
+.bg-dark-section {
+    background-color: #212529;
+}
+
+.whatsapp-color {
+    color: #25D366;
+}
